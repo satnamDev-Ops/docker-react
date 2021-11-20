@@ -1,0 +1,497 @@
+    1  sudo apt-get install --reinstall bcmwl-kernel-source
+    2  reboot
+    3  lsusb
+    4  reboot
+    5  sudo apt-get install lightdm
+    6  claer
+    7  clear
+    8  sudo apt install kde-full
+    9  reboot
+   10  ls
+   11  curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+   12  sudo apt-get install -y nodejs
+   13  node
+   14  node -version
+   15  node -v
+   16  npm --version
+   17  sudo curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+   18  duso
+   19  sudo
+   20  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+   21  sudo apt install curl
+   22  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+   23  node -v
+   24  npm -v
+   25  .deb
+   26  wget https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb
+   27  sudo dpkg -i mongodb-compass_1.26.1_amd64.deb
+   28  sudo apt udate
+   29  sudo apt update
+   30  sudo dpkg -i mongodb-compass_1.26.1_amd64.deb
+   31  mongodb-compass 
+   32  sudo apt install ./<file>.deb
+   33  sudo apt install ./code_1.62.2-1636665017_amd64.deb 
+   34  sudo dpkg -i code_1.62.2-1636665017_amd64.deb 
+   35  sudo apt-get install -f # Install dependencies
+   36  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   37  sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
+   38  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   39  rm -f packages.microsoft.gpg
+   40  sudo apt install apt-transport-https
+   41  sudo apt update
+   42  sudo apt install code
+   43  code .
+   44  sudo apt-get remove docker docker-engine docker.io containerd runc
+   45  sudo apt-get update
+   46  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   47  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   48  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+   49    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   50  code .
+   51  sudo apt-get update
+   52  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   53  docker
+   54  docker app
+   55  docker -app
+   56  docker app --help
+   57  docker run hello-world
+   58  sudo docker run hello-world
+   59  docker run -it ubuntu bash
+   60  sudo docker run -it ubuntu bash
+   61  ls
+   62  code .
+   63  rm mongodb-compass_1.26.1_amd64.deb 
+   64  ls
+   65  cd music
+   66  sudo deb --allow-unauthenticated gitkraken-amd64
+   67  sudo --allow-insecure-repositories deb gitkraken-amd64
+   68  firefox 
+   69  sudo
+   70  sudo apt chrome
+   71  mkdir /etc/opt/chrome/policies 
+   72  sudo mkdir /etc/opt/chrome/policies 
+   73  sudo mkdir /etc/opt/chrome/policies/managed
+   74  sudo mkdir /etc/opt/chrome/policies/recommended
+   75  sudo apt install git-all
+   76  git -v
+   77  git --version
+   78  apt-get install git
+   79  sudo apt-get install git
+   80  apt update
+   81  sudo apt update
+   82  sudo apt-get update
+   83  git --version
+   84  sudo apt remove git-all
+   85  sudo apt-get install git
+   86  sudo apt remove git-all
+   87  git --version
+   88  sudo apt install git-all
+   89  git --version
+   90  sudo apt-get update
+   91  sudo apt-get upgrade
+   92  sudo add-apt-repository ppa:git-core/ppa -y
+   93  sudo apt-get update
+   94  sudo apt-get install git -y
+   95  git --version
+   96  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+   97  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   98  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu
+   99  $(lsb_release -cs) stable"
+  100  sudo apt-get update
+  101  sudo apt-get install docker-ce
+  102  sudo su
+  103  sudo apt-get update
+  104  sudo apt-get upgrade
+  105  wget -c https://release.gitkraken.com/linux/gitkraken-amd64.deb
+  106  sudo apt install ./gitkraken-amd64.deb
+  107  sudo snap install postman
+  108  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  109  sudo apt install ./google-chrome-stable_current_amd64.deb
+  110  sudo apt-get update
+  111  chrome
+  112  sudo apt update && sudo apt upgrade
+  113  wget http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/linux/2.x/2.4/en_us/FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz
+  114  tar xzvf FoxitReader*.tar.gz
+  115  ls
+  116  sudo chmod a+x FoxitReader*.run
+  117  sudo ./FoxitReader*.run
+  118  postman 
+  119  sudo apt install virtualbox virtualbox-ext-pack
+  120  sudo apt-get update
+  121  dmesg | grep -i 'blue'
+  122  sudo service bluetooth restart
+  123  exit
+  124  sudo apt-get autoremove virtualbox-dkms
+  125  sudo apt-get install build-essential linux-headers-`uname -r` dkms virtualbox-dkms
+  126  sudo modprobe vboxdrv
+  127  sudo modprobe vboxnetflt
+  128  shutdown
+  129  shutdown -c
+  130  ls
+  131  ls -al
+  132  ls
+  133  cd VirtualBox\ VMs/
+  134  ls
+  135  mkdir 
+  136  mkdir abc
+  137  ls
+  138  rm abc
+  139  rm -rf abc
+  140  ls
+  141  sudo apt-get update
+  142  sudo apt-get install -y wget apt-transport-https software-properties-common
+  143  wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+  144  sudo dpkg -i packages-microsoft-prod.deb
+  145  ls
+  146  wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+  147  sudo dpkg -i packages-microsoft-prod.deb
+  148  wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+  149  sudo dpkg -i packages-microsoft-prod.deb
+  150  sudo apt-get update
+  151  sudo apt-get install -y powershell
+  152  pwsh
+  153  sudo apt-get install -y powershell
+  154  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.17.3.linux-amd64.tar.gz
+  155  rm -rf /usr/local/go && tar -C /usr/local -xzf /home/subuntu/Downloads/go1.17.3.linux-amd64.tar.gz
+  156  sudo rm -rf /usr/local/go && tar -C /usr/local -xzf /home/subuntu/Downloads/go1.17.3.linux-amd64.tar.gz
+  157  sudo tar -C /usr/local -xzf /home/subuntu/Downloads/go1.17.3.linux-amd64.tar.gz
+  158  export PATH=$PATH:/usr/local/go/bin
+  159  go -version
+  160  go --version
+  161  go version
+  162  lspci
+  163  lspci | grep -i broadcom
+  164  nmcli connection show
+  165  iwconfig wlan0 | grep -i --color quality
+  166  iwconfig Punjab | grep -i --color quality
+  167  ls
+  168  cd go
+  169  ls
+  170  dpkg --list | grep "go"
+  171  go version
+  172  go
+  173  snap info go
+  174  cd .
+  175  cd ..
+  176  ls
+  177  cd snap/
+  178  ls
+  179  postman
+  180  ls
+  181  cd ..
+  182  exit
+  183  sudo groupadd docker
+  184  sudo usermod -aG docker $USER
+  185  newgrp docker
+  186  docker run hello-world
+  187  ls
+  188  ls -al
+  189  clear
+  190  docker run hello-world
+  191  sudo usermod -aG docker $USER
+  192  newgrp docker 
+  193  docker run hello-world
+  194  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  195  history
+  196  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  197  nmcli connection show
+  198  ls
+  199  docker ls
+  200  docker --help
+  201  docker images
+  202  ls
+  203  open
+  204  ls
+  205  ls -al
+  206  netstat
+  207  sudo apt install net-tools
+  208  netstat
+  209  netstat -an
+  210  clear
+  211  netstat -an
+  212  ipconfig
+  213  iwconfig
+  214  ifconfig
+  215  docker list
+  216  docker --help
+  217  docker events 
+  218  docker logs
+  219  docker builder 
+  220  docker -version
+  221  docker version
+  222  redis-cli
+  223  clear
+  224  docker ps
+  225  docker exec -it redis-cli
+  226  docker exec -it 855484ce5bfb redis-cli
+  227  docker exec  855484ce5bfb redis-cli
+  228  docker logs 855484ce5bfb
+  229  docker exec -i 855484ce5bfb redis-cli
+  230  docker exec -it 855484ce5bfb sh 
+  231  z
+  232  clear
+  233  docker exec -it 855484ce5bfb zsh 
+  234  docker exec -it 855484ce5bfb sh 
+  235  clear
+  236  node -version
+  237  node --version
+  238  docker ps
+  239  docker s -a
+  240  docker s -al
+  241  docker s --al
+  242  docker s --all
+  243  docker ps --all
+  244  docker ps --al
+  245  docker ps -al
+  246  docker ps -all
+  247  clear
+  248  docker ps -all
+  249  docker ps 
+  250  ls
+  251  clear
+  252  docker ps -all
+  253  docker ps --all
+  254  docker ps -all
+  255  docker ps
+  256  docker ps --all
+  257  bitwarden
+  258  val
+  259  pal
+  260  claer
+  261  clear
+  262  docker start busybox
+  263  docker create busybox 
+  264  docker start busybox
+  265  docker start faa2da436
+  266  clear
+  267  docker create hello-world
+  268  docker start -a 69da219a0320851ba
+  269  docker stats 
+  270  docker ps --all
+  271  docker start 7ccdba6464a7
+  272  docker start -a 7ccdba6464a7
+  273  clear
+  274  docker ps -all
+  275  docker system prune 
+  276  docker ps -all
+  277  docker run hello-world
+  278  docker ps
+  279  docker ps -all
+  280  docker run busybox ls
+  281  docker ps --all
+  282  docker system prune 7cffeac3899e
+  283  docker system prune --help
+  284  docker system prune --filter 7cffeac3899e
+  285  docker ps --all
+  286  docker system prune --filter modest_engelbart
+  287  docker system prune --filter name=modest_engelbart
+  288  docker system prune --filter Name=modest_engelbart
+  289  clear
+  290  docker ps --all
+  291  docker system prune --filter label=modest_engelbart
+  292  docker ps --all
+  293  docker system prune --filter label=7cffeac3899e
+  294  docker ps --all
+  295  docker container prune --filter "name=modest_engelbart"
+  296  docker system prune
+  297  ls
+  298  clear
+  299  ls
+  300  docker ps -al
+  301  docker ps -all
+  302  docker create busybox
+  303  docker start 1e94dece131679
+  304  docker start 91e94dece131679
+  305  docker logs 91e94dece131679
+  306  docker system prune
+  307  docker create busybox echo ji therekjkjhba
+  308  docker start f47b361452ba4
+  309  docker logs f47b361452ba4
+  310  docker create busybox ping google.com
+  311  docker start 0720fb5ed88f390458c
+  312  docker logs 0720fb5ed88f390458c
+  313  docker stop 0720fb5ed88f390458c
+  314  docker logs 0720fb5ed88f390458c
+  315  docker start 0720fb5ed88f390458c
+  316  docker kill  0720fb5ed88f390458c
+  317  docker logs 0720fb5ed88f390458c
+  318  clear
+  319  docker run redis
+  320  ls
+  321  docker run busybox ping google.com
+  322  docker stats
+  323  ls
+  324  what 
+  325  whois
+  326  ls
+  327  docker lists
+  328  docker list
+  329  docker --help
+  330  clear
+  331  docker run hello-world
+  332  clear
+  333  cl
+  334  clear
+  335  docker run busybox echo hi there
+  336  docker run busybox echo hi there how are you
+  337  docker run busybox ls
+  338  docker --help | grep list
+  339  docker --host list
+  340  docker image
+  341  clear
+  342  docker --help 
+  343  docker images
+  344  docker container 
+  345  docker container ls
+  346  docker ps
+  347  clear
+  348  docker run busybox ping google.com
+  349  docker ps
+  350  docker ps --all
+  351  ls
+  352  cd home
+  353  wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+  354  ls
+  355  wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+  356  sudo apt install ./teamviewer_amd64.deb
+  357  sudo apt update
+  358  ls
+  359  rm teamviewer_amd64.deb 
+  360  ls
+  361  clear
+  362  history
+  363  cd /media/subuntu/satnam/Projects/Docker/Docker-And-Kubernetes/Work/redis-image
+  364  ls
+  365  docker build .
+  366  docker system prune 
+  367  docker build .
+  368  docker tag dcb0d5e0efd4 custom-redis
+  369  docker ps
+  370  cd /
+  371  cd ..
+  372  ls
+  373  cd sys
+  374  cd ..
+  375  cd .
+  376  cd ..
+  377  exit
+  378  cd ..
+  379  ls
+  380  cd redis-image/
+  381  cat Dockerfile 
+  382  cd ../simpleWeb/
+  383  ls
+  384  clear
+  385  docker run -it node-image sh
+  386  docker start node-image
+  387  docker exec -it d2ab05095112 sh
+  388  cd ../visits/
+  389  docker run visists
+  390  docker-compose 
+  391  docker-compose images
+  392  docker-compose up 
+  393  docker-compose up --build
+  394  docker-compose images
+  395  docker-compose stats
+  396  docker-compose top
+  397  docker ps
+  398  docker-compose ps
+  399  docker-compose images
+  400  docker-compose stats
+  401  docker-compose top
+  402  docker-compose stats
+  403  docker-compose events
+  404  clear
+  405  git init 
+  406  git status
+  407  ls
+  408  ls -al
+  409  rm -rf .git/
+  410  clear
+  411  node -v
+  412  cd ../
+  413  ls
+  414  mkdir  docker-react
+  415  cd docker-react/
+  416  npx create-react-app frontend
+  417  npm audit
+  418  npm audit fix --force
+  419  code .
+  420  cd frontend/
+  421  ls
+  422  ls -al
+  423  code 
+  424  npm update
+  425  npm i --package-lock-only
+  426  npm run test
+  427  code .
+  428  npm i --package-lock-only
+  429  npm audit fix --force
+  430  npm build
+  431  npm run build
+  432  rm -rf node_modules/
+  433  npm install
+  434  npm run test
+  435  rm -rf build/
+  436  npm run test
+  437  cd ..
+  438  rm -rf frontend/
+  439  npx create-react-app frontend
+  440  npm run test
+  441  cd frontend/
+  442  npm run test
+  443  npm run build
+  444  npm run strat
+  445  npm run start
+  446  touch Dockerfile.dev
+  447  docker build -t react-app -f Dockerfile.dev .
+  448  touch Dockerfile.dev
+  449  docker build -t react-app -f Dockerfile.dev .
+  450  docker run -it 1234:3000 react -app
+  451  docker run -it -p 1234:3000 react -app
+  452  docker run -it -p 1234:3000 react-app
+  453  pwd
+  454  docker build -t react-app -f Dockerfile.dev .
+  455  docker run -it -p 1234:3000 -v $(pwd):/usr/app react-app
+  456  docker run -it -p 1234:3000 -v $(pwd):/app react-app
+  457  docker run -it -p 1234:3000 -v $(pwd):/usr/app react-app
+  458  docker run -it -p 1234:3000 -v /usr/app/node_modules -v $(pwd):/usr/app react-app
+  459  docker build -t react-app -f Dockerfile.dev .
+  460  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/app react-app
+  461  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/ react-app
+  462  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):. react-app
+  463  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):./ react-app
+  464  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):$(pwd) react-app
+  465  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/home/node/app react-app
+  466  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):$(pwd) react-app
+  467  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/app react-app
+  468  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):$(pwd) react-app
+  469  docker run -it -p 1234:3000 -v $(pwd)/node_modules -v $(pwd):$(pwd) react-app
+  470  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/home/node/app react-app
+  471  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):$(pwd) react-app
+  472  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/app react-app
+  473  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/home/node/app react-app
+  474  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):$(pwd) react-app
+  475  docker run -it -p 1234:3000 -v /home/node/app/node_modules -v $(pwd):/home/node/app react-app
+  476  docker-compose --hlp
+  477  docker system prune
+  478  docker run -it compose-react-app sh
+  479* docker -t build-app 
+  480  docker build -t build app -f Dockerfile.dev  .
+  481  docker build -t build-app -f Dockerfile.dev  .
+  482  docker run build-app npm run test
+  483  docker run -it build-app npm run test
+  484  docker exec -it build-app npm run test
+  485  docker exec -it compose-react app  npm run test
+  486  docker exec -it compose-react-app  npm run test
+  487  docker exec -it frontend_react-app_1 npm run test
+  488  docker exec -it compose-react-app  npm run test
+  489  docker run -it compose-react-app  npm run test
+  490  docker system prune 
+  491  docker attach frontend_tests_1 
+  492  docker exec -it frontend_tests sh
+  493  docker exec -it frontend_tests_1 sh
+  494  docker attach frontend_tests_1 
+  495  docker attach react-test-container 
+  496  history 
+  497  history > file.txt
